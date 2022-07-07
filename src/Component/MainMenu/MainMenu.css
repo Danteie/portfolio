@@ -1,0 +1,11 @@
+.main-menu{
+    position: fixed;
+    top: 3rem;
+    right: 5rem;
+}
+
+.main-menu a{
+    padding: 1rem;
+    margin: 0.5rem;
+    border: 1px solid white;
+}

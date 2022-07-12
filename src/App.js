@@ -1,17 +1,20 @@
 
 import './App.css';
 import MainMenu from './Component/MainMenu/MainMenu'
+import {BrowserRouter, Routes,Route} from "react-router-dom";
+// Routes
+import Home from './Routes/Home/Home'
 
 function App() {
   return (
-    <div className="App">
-      <MainMenu/>
-      <article className='home'>
-        <p>Hi, may name is</p>
-        <h1>Aleksandar Djuratovic</h1>
-        <p className='t-center'>Junior Front-end develpoer</p>
-      </article>
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <MainMenu/>
+      <Routes>
+        <Route path="/" element={<Home />}/>
+      </Routes>
+      </div>
+    </BrowserRouter>
   );
 }
 

@@ -21,9 +21,15 @@ body{
   color: white;
 }
 
+.home{
+  background-color: transparent;
+}
+
 .home h1{
   font-size: 70px;
 }
+
+
 
 /* Custom */
 

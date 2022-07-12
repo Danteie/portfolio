@@ -1,12 +1,13 @@
 import React from "react";
 import './MainMenu.css'
+import { Link } from "react-router-dom";
 
 function MainMenu() {
   return (
     <menu className="main-menu">
-        <a href="test">Skils</a>
-        <a href="test">Projects</a>
-        <a href="test">Contact</a>
+      <Link to="/skills"><button type="button" className="main-menu-button">Test</button></Link>
+      <Link to="/skills"><button type="button" className="main-menu-button">Test</button></Link>
+      <Link to="/skills"><button type="button" className="main-menu-button">Test</button></Link>
     </menu>
   );
 }

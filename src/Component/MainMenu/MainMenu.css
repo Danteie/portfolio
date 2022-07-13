@@ -5,6 +5,8 @@
 }
 
 
+
+
 /* button and animation */
 .main-menu-button,
 .main-menu-button:after {
@@ -16,6 +18,7 @@
   background: linear-gradient(45deg, transparent 5%, #0c0c0c 5%);
   border: 0;
   color: #fff;
+  font-family: Hacked;
   letter-spacing: 3px;
   box-shadow: 6px 0px 0px #00E6F6;
   outline: transparent;

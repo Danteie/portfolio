@@ -4,6 +4,9 @@ import MainMenu from './Component/MainMenu/MainMenu'
 import {BrowserRouter, Routes,Route} from "react-router-dom";
 // Routes
 import Home from './Routes/Home/Home'
+import Skils from './Routes/Skils/Skils'
+import Projects from './Routes/Projects/Projects'
+import Contact from './Routes/Contact/Contact'
 
 function App() {
   return (
@@ -12,6 +15,9 @@ function App() {
         <MainMenu/>
       <Routes>
         <Route path="/" element={<Home />}/>
+        <Route path="/skils" element={<Skils />}/>
+        <Route path="/projects" element={<Projects />}/>
+        <Route path="/contact" element={<Contact />}/>
       </Routes>
       </div>
     </BrowserRouter>

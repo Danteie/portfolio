@@ -5,9 +5,9 @@ import { Link } from "react-router-dom";
 function MainMenu() {
   return (
     <menu className="main-menu">
-      <Link to="/skills"><button type="button" className="main-menu-button">Test</button></Link>
-      <Link to="/skills"><button type="button" className="main-menu-button">Test</button></Link>
-      <Link to="/skills"><button type="button" className="main-menu-button">Test</button></Link>
+      <Link to="/skils"><button type="button" className="main-menu-button">Skil</button></Link>
+      <Link to="/projects"><button type="button" className="main-menu-button">Project</button></Link>
+      <Link to="/contact"><button type="button" className="main-menu-button">Contact</button></Link>
     </menu>
   );
 }

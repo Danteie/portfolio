@@ -2,7 +2,7 @@ import './Contact.css'
 
 export default function Contact() {
     return (
-        <article className='home contact'>
+        <article className='home contact hacked'>
           <div>
             <p>NAME</p>
             <h2>Aleksandar Djuratovic</h2>
@@ -15,7 +15,7 @@ export default function Contact() {
             <hr/>
           </div>
           <div>
-          <img  src="https://loremflickr.com/640/360" alt='project' className='project-image'/>
+            <img  src="https://loremflickr.com/640/360" alt='project' className='project-image'/>
           </div>
         </article>
     );

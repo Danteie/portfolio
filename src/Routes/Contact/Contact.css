@@ -1,9 +1,7 @@
 .contact{
-    background-color: rgba(0, 0, 0, 70%);
-    padding: 2rem;
-    border-radius: 15px;
     display: flex;
     gap: 2rem;
+    align-items: center;
 }
 
 .contact hr{

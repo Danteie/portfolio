@@ -1,3 +1,8 @@
+:root{
+  --color-p:  #00E6F6;
+}
+
+
 @font-face {
   font-family: Hacked;
   src: url('./Assets/Hacked-KerX.ttf');

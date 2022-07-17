@@ -1,15 +1,23 @@
 import './Projects.css'
+import gw2 from '../../Assets/gw2.PNG'
+import sub from '../../Assets/sub.PNG'
 
 export default function Projects() {
     return (
-        <article className='project'>
+        <article className='project hacked'>
           <div className="project-card">
-            <img  src="https://loremflickr.com/640/360" alt='project' className='project-image'/>
-            <p>ovo je test za stranicu sa projektima  ovo je test za stranicu sa projektima</p>
+            <img  src={gw2} alt='project'/>
+            <div>
+              <h1 className='t-center'>GENOMEWEB V2</h1>
+              <p>This was small project for current job</p>
+            </div>
           </div>
           <div className="project-card">
-            <p>ovo je test za stranicu sa projektima</p>
-            <img  src="https://loremflickr.com/640/360" alt='project' className='project-image'/>
+          <div>
+              <h1 className='t-center'>SUBRA</h1>
+              <p>Web site for local mountain club</p>
+            </div>
+            <img  src={sub} alt='project'/>
           </div>
         </article>
     );

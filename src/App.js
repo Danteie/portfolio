@@ -11,6 +11,8 @@ import Projects from './Routes/Projects/Projects'
 import Contact from './Routes/Contact/Contact'
 
 function App() {
+  
+
   return (
     <BrowserRouter>
       <ParticlesBg num={300} color="#00E6F6" type="cobweb" bg={true} />

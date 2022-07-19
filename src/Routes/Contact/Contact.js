@@ -1,4 +1,5 @@
 import './Contact.css'
+import brain from '../../Assets/brain.png'
 
 export default function Contact() {
     return (
@@ -15,7 +16,7 @@ export default function Contact() {
             <hr/>
           </div>
           <div>
-            <img  src="https://loremflickr.com/640/360" alt='project' className='project-image'/>
+            <img  src={brain} alt='project' className='project-image'/>
           </div>
         </article>
     );

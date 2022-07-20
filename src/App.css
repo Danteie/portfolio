@@ -34,15 +34,10 @@ body{
   z-index: -10000;
 }
 
-.home{
-  background-color: transparent;
-}
 
 .home h1{
   font-size: 70px;
 }
-
-
 
 /* Custom */
 

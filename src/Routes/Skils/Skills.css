@@ -1,0 +1,14 @@
+.skills{
+    display: flex;
+    align-items: center;
+}
+
+.skills-icons{
+    display: flex;
+    flex-direction: column;
+}
+
+.skills-icons img{
+    width: 200px;
+    height: 200px;
+}

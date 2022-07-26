@@ -5,7 +5,7 @@
 
 .skills-icons{
     display: flex;
-    flex-direction: column;
+    gap: 10rem;
 }
 
 .skills-icons img{

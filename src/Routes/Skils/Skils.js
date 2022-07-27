@@ -23,13 +23,13 @@ export default function Skils() {
             <img src={cssimage} alt='css 3'/>
             <img src={batery2} alt='html 5'/>
           </div>
-          <div>
-            <img src={jsimage} alt='java script'/>
-            <img src={batery3} alt='html 5'/>
-          </div>
         </div>  
 
         <div className='skills-icons'>
+        <div>
+            <img src={jsimage} alt='java script'/>
+            <img src={batery3} alt='html 5'/>
+          </div>
           <div>
             <img src={reactLogo} alt='html 5'/>
             <img src={baterygif} alt='html 5'/>

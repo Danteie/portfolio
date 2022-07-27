@@ -6,6 +6,8 @@ import jsimage from '.././../Assets/js.png'
 import batery1 from '.././../Assets/batery1.png'
 import batery2 from '.././../Assets/batery2.png'
 import batery3 from '.././../Assets/batery3.png'
+import baterygif from '.././../Assets/baterygif.gif'
+import reactLogo from '.././../Assets/ReactLogo.png'
 
 
 
@@ -26,6 +28,14 @@ export default function Skils() {
             <img src={batery3} alt='html 5'/>
           </div>
         </div>  
+
+        <div className='skills-icons'>
+          <div>
+            <img src={reactLogo} alt='html 5'/>
+            <img src={baterygif} alt='html 5'/>
+          </div>
+        </div>  
+
       </article>
   );
 }

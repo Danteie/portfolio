@@ -1,10 +1,7 @@
-.skills{
-    display: flex;
-    align-items: center;
-}
 
 .skills-icons{
     display: flex;
+    justify-content: center;
     gap: 10rem;
 }
 

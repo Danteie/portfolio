@@ -1,6 +1,8 @@
 import './Projects.css'
 import gw2 from '../../Assets/gw2.PNG'
 import sub from '../../Assets/sub.PNG'
+import Tilty from 'react-tilty';
+
 
 
 export default function Projects() {

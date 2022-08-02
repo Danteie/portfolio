@@ -1,5 +1,6 @@
 import './Contact.css'
 import brain from '../../Assets/brain.png'
+import Tilty from 'react-tilty';
 
 export default function Contact() {
     return (
@@ -16,7 +17,7 @@ export default function Contact() {
             <hr/>
           </div>
           <div>
-            <img  src={brain} alt='project' className='project-image'/>
+          <Tilty><img  src={brain} alt='project' className='project-image'/></Tilty>
           </div>
         </article>
     );

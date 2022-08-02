@@ -1,7 +1,20 @@
+.project h2{
+    text-align: center;
+    margin-top: 2rem;
+}
 
+h2 a{
+    font-size: 2.4rem;
+    text-decoration: none;
+    color: var(--color-p);
+}
+
+h2 a:hover{
+   
+}
 
 .project-card{
-    margin-top: 2rem;
+    margin-top: 4rem;
     width: 80rem;
     height: 20rem;
     display: flex;
@@ -42,13 +55,7 @@
     margin: 1rem 0 ;
 }
 
-.project-page{
-    position: absolute;
-    display: flex;
-    justify-content: flex-end;
-    width: 100vh;
-    margin-top: 10rem;
-}
+
 
 
 

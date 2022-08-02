@@ -1,7 +1,7 @@
 import './Projects.css'
 import gw2 from '../../Assets/gw2.PNG'
 import sub from '../../Assets/sub.PNG'
-import Tilty from 'react-tilty';
+
 
 
 
@@ -20,6 +20,7 @@ export default function Projects() {
                 <li>Ad unit generator for day of the week</li>
                 <li>Setup of newslettes in google ad menager</li>
                 <li>Links to job related sheets</li>
+                <li>My colegs are still using this</li>
               </ul>
             </div>
           </div>
@@ -29,16 +30,16 @@ export default function Projects() {
               <p>Web site for local mountain club. </p>
               <hr/>
               <ul>
-                <li>Genereting names for ad chapains</li>
-                <li>QA check list</li>
-                <li>Ad unit generator for day of the week</li>
-                <li>Setup of newslettes in google ad menager</li>
-                <li>Links to job related sheets</li>
+                <li>Navigation menu with hikinh markings</li>
+                <li>Some basic info about club</li>
+                <li>Last News from club(need some more work)</li>
+                <li>Gallery layout(i need some time to add images)</li>
+                <li>Still need some work</li>
               </ul>
             </div>
             <img  src={sub} alt='project'/>
           </div>
-          <a href='test' className='project-page'>Next Page</a>
+         <h2>You can see more <a href='https://www.frontendmentor.io/profile/Danteie' target='_blank' rel="noreferrer">here!</a></h2>
         </article>
     );
   }

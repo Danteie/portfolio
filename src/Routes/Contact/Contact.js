@@ -17,7 +17,7 @@ export default function Contact() {
             <hr/>
           </div>
           <div>
-          <Tilty><img  src={brain} alt='project' className='project-image'/></Tilty>
+          <Tilty><img  src={brain} alt='brain' className='contact-image'/></Tilty>
           </div>
         </article>
     );

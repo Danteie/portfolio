@@ -1,11 +1,17 @@
 import React from "react";
 import './MainMenu.css'
 import { Link } from "react-router-dom";
+import Tilty from 'react-tilty';
+import logo from '../../Assets/logo.png'
 
 function MainMenu() {
   return (
     <menu className="main-menu">
-        <Link to='/'><h1>A</h1></Link>
+        <Link to='/'>
+          <Tilty>
+            <img  src={logo} alt='project' className='project-image'/>
+          </Tilty>
+        </Link>
       <div>
         <Link to="/skils"><button type="button" className="main-menu-button">Skil</button></Link>
         <Link to="/projects"><button type="button" className="main-menu-button">Project</button></Link>

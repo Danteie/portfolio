@@ -8,6 +8,16 @@
     align-items: center;
 }
 
+.project-image{
+  width: 80px;
+  height: 80px;
+  transition: 1s;
+}
+
+.project-image:hover{
+  transform: scale(1.5);
+}
+
 .main-menu h1{
   font-size: 3rem;
   font-family: hacked;

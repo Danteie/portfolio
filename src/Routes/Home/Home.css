@@ -4,12 +4,15 @@
     text-shadow: 1px 1px white;
 }
 
-.home h1{
-    font-size: 7rem;
-    color: #00E6F6;
-    text-shadow: 1px 1px white;
-}
+
 
 .home h1 span{
     color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .home h1{
+        font-size: 2rem;
+    }
+   
 }

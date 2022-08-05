@@ -123,4 +123,30 @@
   }
 }
 
+@media only screen and (max-width: 600px) {
+  .main-menu{
+    position: fixed;
+    top: 2rem;
 
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .project-image{
+    background-color: white;
+    border-radius: 50%;
+    padding: 0.5rem;
+  }
+
+  .menu-items{
+    display: flex;
+  }
+
+  .main-menu-button,
+  .main-menu-button:after {
+  width: 6.5rem;
+  height: 3rem;
+
+}
+}

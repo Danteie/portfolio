@@ -9,13 +9,26 @@ import Home from './Routes/Home/Home'
 import Skils from './Routes/Skils/Skils'
 import Projects from './Routes/Projects/Projects'
 import Contact from './Routes/Contact/Contact'
+//hook
+import { useEffect,useState } from 'react';
 
 function App() {
-  
+
+  const [num, setNum] = useState(300);
+
+  useEffect(() => {
+      const width = window.innerWidth;
+      if(width > 600){
+        setNum(prevNum => prevNum = 300)
+      }else{
+        setNum(prevNum => prevNum = 120)
+      }
+      console.log(num);
+   });
 
   return (
     <BrowserRouter>
-      <ParticlesBg num={300} color="#00E6F6" type="cobweb" bg={true} />
+      <ParticlesBg num={num} color="#00E6F6" type="cobweb" bg={true} />
       <div className="App">
         <MainMenu/>
       <Routes>

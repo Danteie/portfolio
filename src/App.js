@@ -21,7 +21,7 @@ function App() {
       if(width > 600){
         setNum(prevNum => prevNum = 300)
       }else{
-        setNum(prevNum => prevNum = 120)
+        setNum(prevNum => prevNum = 70)
       }
       console.log(num);
    });

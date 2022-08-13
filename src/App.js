@@ -19,24 +19,26 @@ function App() {
   useEffect(() => {
       const width = window.innerWidth;
       if(width > 600){
-        setNum(prevNum => prevNum = 300)
+        setNum(prevNum => prevNum = 350)
       }else{
         setNum(prevNum => prevNum = 70)
       }
       console.log(num);
-   });
+   },[num]);
 
   return (
     <BrowserRouter>
       <ParticlesBg num={num} color="#00E6F6" type="cobweb" bg={true} />
       <div className="App">
         <MainMenu/>
-      <Routes>
-        <Route path="/" element={<Home />}/>
-        <Route path="/skils" element={<Skils />}/>
-        <Route path="/projects" element={<Projects />}/>
-        <Route path="/contact" element={<Contact />}/>
-      </Routes>
+      <article className='content'>
+        <Routes>
+          <Route path="/" element={<Home />}/>
+          <Route path="/skils" element={<Skils />}/>
+          <Route path="/projects" element={<Projects />}/>
+          <Route path="/contact" element={<Contact />}/>
+        </Routes>
+      </article>
       </div>
     </BrowserRouter>
   );

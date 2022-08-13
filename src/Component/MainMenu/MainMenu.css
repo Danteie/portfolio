@@ -1,11 +1,8 @@
 .main-menu{
-    position: fixed;
-    top: 2rem;
-    left: 5rem;
-    right: 5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 1rem 2rem;
 }
 
 .project-image{
@@ -125,18 +122,13 @@
 
 @media only screen and (max-width: 600px) {
   .main-menu{
-    position: fixed;
-    top: 2rem;
-
     display: flex;
-    flex-direction: column;
   }
-
 
   .project-image{
     background-color: white;
     border-radius: 50%;
-    padding: 0.5rem;
+
   }
 
   .menu-items{
@@ -145,8 +137,8 @@
 
   .main-menu-button,
   .main-menu-button:after {
-  width: 6.5rem;
+  width: 5rem;
   height: 3rem;
-
+  font-size: 15px;
 }
 }

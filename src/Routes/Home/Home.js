@@ -3,31 +3,39 @@ import { motion } from "framer-motion"
 
 export default function Home() {
   return (
+    <motion.div
+    drag
+    dragConstraints={{
+      top: 0,
+      left: 0,
+      right: 0,
+      bottom: 0,
+    }}
+  >
       <article className='home hacked'>
         <motion.div
           animate={{
-            opacity:[0,0,0,0,1,1,1,1,1,0,0,0,1,1,1,0,0,0,1],
-            originY: [300,0,200,0]
+            opacity:[0,1,0,1],
+            
           }} 
         >
           <p >Hi, my name is</p>
           </motion.div>
           <motion.div
           animate={{
-            opacity:[1,1,1,0,0,1,1,1,1,0,1,0,1,0,0,1,0,1,1],
-            y: [100,0,50,0]
+            opacity:[0,1,1,0,1],    
           }} 
         >
           <h1>Aleksandar <span>Djuratovic</span></h1>
           </motion.div>
           <motion.div
           animate={{
-            opacity:[0,1,1,1,0,1,1,1,1,0,1,0,1,0,0,0,0,0,1],
-            y: [-200,0,200,0]
+            opacity:[null,0,1,0,1],
           }} >
           <p className='t-center'>Junior Frontend develpoer</p>
           </motion.div>
       </article>
+      </motion.div>
   );
 }
 

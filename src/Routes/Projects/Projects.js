@@ -10,7 +10,7 @@ export default function Projects() {
         <article className='project hacked'>
           <div className="project-card">
             <img  src={gw2} alt='project'/>
-            <div>
+            <div className='text'>
               <h1 className='t-center'>GENOMEWEB V2</h1>
               <p>This was small project for current job. For this project look dident metter it was more funcionality</p>
               <hr/>
@@ -25,7 +25,7 @@ export default function Projects() {
             </div>
           </div>
           <div className="project-card">
-          <div>
+          <div className='text'>
               <h1 className='t-center'>SUBRA</h1>
               <p>Web site for local mountain club. </p>
               <hr/>
@@ -37,9 +37,9 @@ export default function Projects() {
                 <li>Still need some work</li>
               </ul>
             </div>
-            <img  src={sub} alt='project'/>
+            <img  src={sub} alt='project' />
           </div>
-         <h2>You can see more <a href='https://www.frontendmentor.io/profile/Danteie' target='_blank' rel="noreferrer">here!</a></h2>
+         <h2 className='bottom-click'>You can see more <a href='https://www.frontendmentor.io/profile/Danteie' target='_blank' rel="noreferrer">here!</a></h2>
         </article>
     );
   }

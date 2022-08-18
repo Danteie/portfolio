@@ -19,7 +19,7 @@ export default function Contact() {
               <h2>aleksandr.djuratovic@gmail.com</h2>
               <hr/>
               <p>GIT HUB</p>
-              <h2>https://github.com/Danteie</h2>
+              <a href='https://github.com/Danteie'>https://github.com/Danteie</a>
               <hr/>
             </div>
           </motion.div>

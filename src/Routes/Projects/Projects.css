@@ -9,9 +9,6 @@ h2 a{
     color: var(--color-p);
 }
 
-h2 a:hover{
-   
-}
 
 .project-card{
     margin-top: 4rem;

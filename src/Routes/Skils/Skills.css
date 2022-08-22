@@ -8,6 +8,8 @@
 .skills-icons img{
     width: 200px;
     height: 200px;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
 }
 
 @media only screen and (max-width: 600px) {

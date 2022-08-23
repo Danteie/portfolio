@@ -31,14 +31,14 @@ function App() {
       <ParticlesBg num={num} color="#00E6F6" type="cobweb" bg={true} />
       <div className="App">
         <MainMenu/>
-      <article className='content'>
-        <Routes>
-          <Route path="/" element={<Home />}/>
-          <Route path="/skils" element={<Skils />}/>
-          <Route path="/projects" element={<Projects />}/>
-          <Route path="/contact" element={<Contact />}/>
-        </Routes>
-      </article>
+        <article className='content'>
+          <Routes>
+            <Route path="/" element={<Home />}/>
+            <Route path="/skils" element={<Skils />}/>
+            <Route path="/projects" element={<Projects />}/>
+            <Route path="/contact" element={<Contact />}/>
+          </Routes>
+        </article>
       </div>
     </BrowserRouter>
   );

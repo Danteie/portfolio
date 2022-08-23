@@ -13,16 +13,13 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .skills{
-        margin-top: 10rem;
-    }
+   
     .skills-icons{
         display: block;
-        gap: 1rem;
     }
 
     .skills-icons img{
-        width: 150px;
-        height: 150px;
+        width: 100px;
+        height: 100px;
     }
 }

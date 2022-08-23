@@ -9,7 +9,6 @@ h2 a{
     color: var(--color-p);
 }
 
-
 .project-card{
     margin-top: 4rem;
     width: 80rem;
@@ -38,7 +37,7 @@ h2 a{
 
 .project-card h1{
     font-size: 2.5rem;
-    margin-bottom: 1rem;
+    margin-top: 1rem;
     text-shadow: 1px 0 white;
     letter-spacing: 4px;
 }
@@ -58,23 +57,27 @@ h2 a{
         display: none;
     }
 
-    .bottom-click{
-        font-size: 1rem;
-        margin-bottom: 1rem;
+    .project{
+        margin-top: 0;
     }
 
-    .project{
-        margin-top: 5rem;
+    .bottom-click{
+        font-size: 1rem;
+        margin-bottom: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem
     }
 
     .project-card{
         box-sizing: border-box;
         padding: 1rem;
-        margin-top: 1rem;
         width: auto;
         height: 15rem;
         display: flex;
         flex-direction: column;
+        margin-top: 0rem;
     }
 
     .project-card img{

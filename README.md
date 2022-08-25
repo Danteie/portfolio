@@ -1,7 +1,7 @@
 Hi, This is the Personal Portfolio site for Aleksandr Djuratovic, built with React.
 
 
-![alt text](https://danteie.github.io/portfolio/to/img.png)
+![alt text](./src/Assets/ss.png)
 
 
 

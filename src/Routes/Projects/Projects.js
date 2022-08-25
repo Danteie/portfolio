@@ -49,7 +49,7 @@ export default function Projects() {
                 <li>Still need some work</li>
               </ul>
             </div>
-            <a href='https://danteie.github.io/subra/' target='_blank' rel="noreferrer"> <img  src={sub} alt='project' /></a>
+            <a href='https://danteie.github.io/subra/' target='_blank' rel="noreferrer"y> <img  src={sub} alt='project' /></a>
            
           </div>
           </motion.div>

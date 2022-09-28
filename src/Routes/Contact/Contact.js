@@ -16,7 +16,7 @@ export default function Contact() {
               <h2>Aleksandar Djuratovic</h2>
               <hr/>
               <p>EMAIL</p>
-              <h2>aleksandr.djuratovic@gmail.com</h2>
+              <h2>aleksandar.djuratovic@gmail.com</h2>
               <hr/>
               <p>GIT HUB</p>
               <a href='https://github.com/Danteie'>https://github.com/Danteie</a>

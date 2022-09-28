@@ -26,7 +26,8 @@ export default function Home() {
             opacity:[0,1,1,0,1],    
           }} 
         >
-          <h1>Aleksandar <span>Djuratovic</span></h1>
+          <h1 className='name-text'>Aleksandar <span>Djuratovic</span></h1>
+          {/* <span className="tooltiptext">tooltip</span> */}
           </motion.div>
           <motion.div
           animate={{

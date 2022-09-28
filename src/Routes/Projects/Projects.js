@@ -20,12 +20,12 @@ export default function Projects() {
                 <p>This was small project for current job. For this project look dident metter it was more funcionality</p>
                 <hr/>
                 <ul>
-                  <li>Genereting names for ad chapains</li>
-                  <li>QA check list</li>
-                  <li>Ad unit generator for day of the week</li>
-                  <li>Setup of newslettes in google ad menager</li>
-                  <li>Links to job related sheets</li>
-                  <li>My colegs are still using this</li>
+                  <li>Generating names for ad campaigns</li>
+                  <li>QA checklist</li>
+                  <li>Ad unit generator for the day of the week</li>
+                  <li>Setup of newsletters in google ad manager</li>
+                  <li>Links to job-related sheets</li>
+                  <li>My colleges are still using this website</li>
                 </ul>
               </div>
             </div>
@@ -42,9 +42,9 @@ export default function Projects() {
               <p>Web site for local mountain club. </p>
               <hr/>
               <ul>
-                <li>Navigation menu with hikinh markings</li>
-                <li>Some basic info about club</li>
-                <li>Last News from club(need some more work)</li>
+                <li>Navigation menu with hiking markings</li>
+                <li>Some basic information about the club</li>
+                <li>Last News from the club(need some more work)</li>
                 <li>Gallery layout(i need some time to add images)</li>
                 <li>Still need some work</li>
               </ul>

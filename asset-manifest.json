@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.dd7360e0.css",
-    "main.js": "/portfolio/static/js/main.d3dc17be.js",
+    "main.js": "/portfolio/static/js/main.b414407a.js",
     "static/media/sub.PNG": "/portfolio/static/media/sub.369163962da953fecada.PNG",
     "static/media/logo.png": "/portfolio/static/media/logo.ee33a1a0e0d5e08be1ef.png",
     "static/media/gw2.PNG": "/portfolio/static/media/gw2.331b4d1516fe4ade07d4.PNG",
     "static/media/brain.png": "/portfolio/static/media/brain.de41ebcf73d557d085b5.png",
-    "static/media/css3.png": "/portfolio/static/media/css3.74ff0b5fd86f9eadddd3.png",
-    "static/media/js.png": "/portfolio/static/media/js.1ce573bf7bfcde1728a4.png",
+    "static/media/html5.png": "/portfolio/static/media/html5.1d7b133e22ffe4829da6.png",
     "static/media/ReactLogo.png": "/portfolio/static/media/ReactLogo.80045de70681e3171446.png",
     "static/media/baterygif.gif": "/portfolio/static/media/baterygif.454cffb9a3e8db489b2d.gif",
+    "static/media/js.png": "/portfolio/static/media/js.1707d09a3f6f31bb97e8.png",
     "static/media/Hacked-KerX.ttf": "/portfolio/static/media/Hacked-KerX.d981e1d471a16b240218.ttf",
-    "static/media/html5.png": "/portfolio/static/media/html5.5b4f7830e55f859417f6.png",
+    "static/media/css3.png": "/portfolio/static/media/css3.c5583d093ec16d030195.png",
     "static/media/batery1.png": "/portfolio/static/media/batery1.0d60381e9c3fceec8450.png",
     "static/media/batery2.png": "/portfolio/static/media/batery2.298a1227e7d7645674f8.png",
     "index.html": "/portfolio/index.html",
     "main.dd7360e0.css.map": "/portfolio/static/css/main.dd7360e0.css.map",
-    "main.d3dc17be.js.map": "/portfolio/static/js/main.d3dc17be.js.map"
+    "main.b414407a.js.map": "/portfolio/static/js/main.b414407a.js.map"
   },
   "entrypoints": [
     "static/css/main.dd7360e0.css",
-    "static/js/main.d3dc17be.js"
+    "static/js/main.b414407a.js"
   ]
 }

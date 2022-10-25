@@ -1,5 +1,5 @@
 import './Skills.css'
-
+import { motion } from "framer-motion"
 import htmlimage from '.././../Assets/html5.png'
 import cssimage from '.././../Assets/css3.png'
 import jsimage from '.././../Assets/js.png'
@@ -13,7 +13,11 @@ import reactLogo from '.././../Assets/ReactLogo.png'
 
 export default function Skils() { 
   return (
-      <article className='skills'>
+    <motion.div
+    drag
+    animate={{
+      opacity:[0,0,1,1,0,1,0,1,1],
+    }} className='skills'>
         <div className='skills-icons'>
           <div>
             <img src={htmlimage} alt='html 5'/>
@@ -36,7 +40,7 @@ export default function Skils() {
           </div>
         </div>  
 
-      </article>
+      </motion.div>
   );
 }
   

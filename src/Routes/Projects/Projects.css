@@ -1,3 +1,9 @@
+@font-face {
+    font-family: Alien;
+    src: url('../../Assets/AlienAlphabet-nRRqJ.otf');
+  }
+
+
 .project h2{
     text-align: center;
     margin-top: 2rem;
@@ -26,6 +32,7 @@ h2 a{
 }
 
 
+
 .project-card img{
     flex: 1;
     width: 100%;
@@ -36,7 +43,6 @@ h2 a{
 }
 
 .project-card img:hover{
-    
     border-radius: 20px;
     border: 2px solid var(--color-p)
 }
@@ -58,11 +64,24 @@ h2 a{
 
 .project-card p{
     font-size: 1.5rem;
+    margin-top: 1rem;
 }
 
 .project-card ul,li,a{
     font-size: 1.5rem;
     margin: 1rem 0 ;
+}
+
+
+.text a{
+    color: var(--color-p);
+    text-decoration: none;
+    font-size: 2.3rem;
+}
+
+.alien{
+    font-family: Alien;
+    border-bottom: 3px dotted var(--color-p);
 }
 
 

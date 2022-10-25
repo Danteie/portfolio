@@ -16,7 +16,7 @@ export default function Projects() {
             <div className="project-card">
             <a href='https://danteie.github.io/gwtools_v2/' target='_blank' rel="noreferrer"> <img  src={gw2} alt='project' /></a>
               <div className='text'>
-                <h1 className='t-center'>GENOMEWEB V2</h1>
+                <a href='https://danteie.github.io/gwtools_v2/' target='_blank' rel="noreferrer" className='link'><span className='alien'>aokdasd</span> GENOMEWEB V2 <span className='alien'>asdd</span></a>
                 <p>This was small project for current job. For this project look dident metter it was more funcionality</p>
                 <hr/>
                 <ul>
@@ -38,7 +38,7 @@ export default function Projects() {
         >
           <div className="project-card">
           <div className='text'>
-              <h1 className='t-center'>SUBRA</h1>
+              <a className='link' href='https://danteie.github.io/subra/' target='_blank' rel="noreferrer"><span className='alien'>aokdeijew</span> SUBRA <span className='alien'>asdghthr</span></a>
               <p>Web site for local mountain club. </p>
               <hr/>
               <ul>

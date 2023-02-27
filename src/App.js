@@ -33,7 +33,7 @@ function App() {
         <MainMenu/>
         <article className='content'>
           <Routes>
-            <Route path="/" element={<Home />}/>
+            <Route exact path="/" element={<Home />}/>
             <Route path="/skils" element={<Skils />}/>
             <Route path="/projects" element={<Projects />}/>
             <Route path="/contact" element={<Contact />}/>

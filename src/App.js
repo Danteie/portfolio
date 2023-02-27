@@ -27,7 +27,7 @@ function App() {
    },[num]);
 
   return (
-    <BrowserRouter basename={window.location.pathname || ''}>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <ParticlesBg num={num} color="#00E6F6" type="cobweb" bg={true} />
       <div className="App">
         <MainMenu/>

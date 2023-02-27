@@ -27,7 +27,7 @@ function App() {
    },[num]);
 
   return (
-    <BrowserRouter basename='/'>
+    <BrowserRouter basename={window.location.pathname || ''}>
       <ParticlesBg num={num} color="#00E6F6" type="cobweb" bg={true} />
       <div className="App">
         <MainMenu/>

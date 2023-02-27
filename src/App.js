@@ -1,7 +1,7 @@
 
 import './App.css';
 import MainMenu from './Component/MainMenu/MainMenu'
-import {HashRouter, Routes,Route} from "react-router-dom";
+import {BrowserRouter, Routes,Route} from "react-router-dom";
 //Animated Background
 import ParticlesBg from 'particles-bg'
 // Routes
@@ -27,7 +27,7 @@ function App() {
    },[num]);
 
   return (
-    <HashRouter>
+    <BrowserRouter basename='/'>
       <ParticlesBg num={num} color="#00E6F6" type="cobweb" bg={true} />
       <div className="App">
         <MainMenu/>
@@ -40,7 +40,7 @@ function App() {
           </Routes>
         </article>
       </div>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 

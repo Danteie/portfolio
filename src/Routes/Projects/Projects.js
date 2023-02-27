@@ -14,7 +14,7 @@ export default function Projects() {
           }} 
         >
             <div className="project-card">
-            <a href='https://danteie.github.io/gwtools_v2/' target='_blank' rel="noreferrer"> <img  src={gw2} alt='project' /></a>
+            <a href='https://danteie.github.io/gwtools_v2/' target='_blank' rel="noreferrer"> <img  src={gw2} alt='project' /> </a>
               <div className='text'>
                 <a href='https://danteie.github.io/gwtools_v2/' target='_blank' rel="noreferrer" className='link'><span className='alien'>aokdasd</span> GENOMEWEB V2 <span className='alien'>asdd</span></a>
                 <p>This was small project for current job. For this project look dident metter it was more funcionality</p>

@@ -28,7 +28,7 @@ function App() {
 
   return (
     <div className="App">
-      <Router basename="/">
+      <Router basename="/portfolio">
         <ParticlesBg num={num} color="#00E6F6" type="cobweb" bg={true} /> 
         <MainMenu/>
           <article className='content'>

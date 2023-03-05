@@ -28,7 +28,7 @@ function App() {
 
   return (
     <div className="App">
-      <Router basename="/portfolio">
+      {/* <Router basename="/portfolio">
         <ParticlesBg num={num} color="#00E6F6" type="cobweb" bg={true} /> 
         <MainMenu/>
           <article className='content'>
@@ -39,7 +39,8 @@ function App() {
               <Route path="/contact" element={<Contact />}/>
             </Routes>
           </article>
-      </Router>
+      </Router> */}
+      <h1>Test</h1>
      </div>
   );
 }

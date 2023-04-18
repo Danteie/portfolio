@@ -50,6 +50,13 @@
         width: 300px;
         height: 300px;
     }
+
+    .download{
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;
+        color: var(--color-p);
+    }
    
 }
 

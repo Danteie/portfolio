@@ -2,7 +2,6 @@
   --color-p:  #00E6F6;
 }
 
-
 @font-face {
   font-family: Hacked;
   src: url('./Assets/Hacked-KerX.ttf');
@@ -15,7 +14,6 @@
 }
 
 body{
-  background-image: linear-gradient(147deg, #1a1a1a 0%, #1a1a1a 74%);
   background-image: url('../src/Assets/abstract_background_with_connecting_lines_and_dots_2407.jpg');
   background-blend-mode: darken;
   background-position: center;
@@ -38,8 +36,6 @@ body{
   color: white;
 }
 
-
-
 .home h1{
   font-size: 70px;
 }
@@ -57,7 +53,6 @@ body{
 .hacked{
   font-family: Hacked;
 }
-
 
 @media only screen and (max-width: 1000px) {
   .content{

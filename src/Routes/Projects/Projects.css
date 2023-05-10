@@ -3,7 +3,6 @@
     src: url('../../Assets/AlienAlphabet-nRRqJ.otf');
   }
 
-
 .project h2{
     text-align: center;
     margin-top: 2rem;
@@ -13,6 +12,12 @@ h2 a{
     font-size: 2.4rem;
     text-decoration: none;
     color: var(--color-p);
+}
+
+.project{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
 
 .project-card{
@@ -30,8 +35,6 @@ h2 a{
     width: 100%;
     height: 100%;
 }
-
-
 
 .project-card img{
     flex: 1;
@@ -88,7 +91,6 @@ iframe{
     margin: 1rem 0 ;
 }
 
-
 .text a{
     color: var(--color-p);
     text-decoration: none;
@@ -99,7 +101,6 @@ iframe{
     font-family: Alien;
     border-bottom: 3px dotted var(--color-p);
 }
-
 
 @media only screen and (max-width: 1500px) {
     .text{
@@ -134,7 +135,6 @@ iframe{
     }
    
 }
-
 
 @media only screen and (max-width: 1400px) {
     .text{
